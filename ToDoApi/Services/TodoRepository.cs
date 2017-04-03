@@ -39,6 +39,57 @@ namespace ToDoApi.Services
                 Name = "item5",
                 IsComplete = true
             });
+            Add(new TodoItem
+            {
+                Name = "item1",
+                IsComplete = false
+            });
+            Add(new TodoItem
+            {
+                Name = "item2",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item3",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item4",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item5",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item6",
+                IsComplete = false
+            });
+            Add(new TodoItem
+            {
+                Name = "item7",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item8",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item9",
+                IsComplete = true
+            });
+            Add(new TodoItem
+            {
+                Name = "item10",
+                IsComplete = true
+            });
+
         }
 
         public IEnumerable<TodoItem> GetAll()

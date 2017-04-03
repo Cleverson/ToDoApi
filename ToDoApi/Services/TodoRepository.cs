@@ -41,31 +41,6 @@ namespace ToDoApi.Services
             });
             Add(new TodoItem
             {
-                Name = "item1",
-                IsComplete = false
-            });
-            Add(new TodoItem
-            {
-                Name = "item2",
-                IsComplete = true
-            });
-            Add(new TodoItem
-            {
-                Name = "item3",
-                IsComplete = true
-            });
-            Add(new TodoItem
-            {
-                Name = "item4",
-                IsComplete = true
-            });
-            Add(new TodoItem
-            {
-                Name = "item5",
-                IsComplete = true
-            });
-            Add(new TodoItem
-            {
                 Name = "item6",
                 IsComplete = false
             });
@@ -89,7 +64,6 @@ namespace ToDoApi.Services
                 Name = "item10",
                 IsComplete = true
             });
-
         }
 
         public IEnumerable<TodoItem> GetAll()

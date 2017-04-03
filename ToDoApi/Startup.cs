@@ -43,10 +43,10 @@ namespace ToDoApi
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info
+                c.SwaggerDoc("v2", new Info
                 {
                     Title = "My API Todo",
-                    Version = "v1",
+                    Version = "v2",
                     Contact = new Contact
                     {
                         Name = "Cleverson A. S. Dias - Suporte2",
